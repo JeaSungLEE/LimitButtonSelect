@@ -7,16 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		391F20531F3ACAB10044EEC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391F20521F3ACAB10044EEC0 /* AppDelegate.swift */; };
+		391F20551F3ACAB10044EEC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391F20541F3ACAB10044EEC0 /* ViewController.swift */; };
+		391F20581F3ACAB10044EEC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391F20561F3ACAB10044EEC0 /* Main.storyboard */; };
+		391F205A1F3ACAB10044EEC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391F20591F3ACAB10044EEC0 /* Assets.xcassets */; };
+		391F205D1F3ACAB10044EEC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391F205B1F3ACAB10044EEC0 /* LaunchScreen.storyboard */; };
+		391F20631F3ACB140044EEC0 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391F20621F3ACB140044EEC0 /* Button.swift */; };
 		3952177C1F3AA61A00F8AF09 /* LimitButtonSelect.h in Headers */ = {isa = PBXBuildFile; fileRef = 3952177A1F3AA61A00F8AF09 /* LimitButtonSelect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		395217831F3AA62600F8AF09 /* LimitButtonSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395217821F3AA62600F8AF09 /* LimitButtonSelect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		391F20501F3ACAB10044EEC0 /* LimitSelectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LimitSelectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		391F20521F3ACAB10044EEC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		391F20541F3ACAB10044EEC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		391F20571F3ACAB10044EEC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		391F20591F3ACAB10044EEC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		391F205C1F3ACAB10044EEC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		391F205E1F3ACAB10044EEC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391F20621F3ACB140044EEC0 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		395217771F3AA61A00F8AF09 /* LimitButtonSelect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LimitButtonSelect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3952177A1F3AA61A00F8AF09 /* LimitButtonSelect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LimitButtonSelect.h; sourceTree = "<group>"; };
 		3952177B1F3AA61A00F8AF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395217821F3AA62600F8AF09 /* LimitButtonSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LimitButtonSelect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		391F204D1F3ACAB10044EEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		395217731F3AA61A00F8AF09 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -27,10 +50,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		391F20511F3ACAB10044EEC0 /* LimitSelectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				391F20521F3ACAB10044EEC0 /* AppDelegate.swift */,
+				391F20541F3ACAB10044EEC0 /* ViewController.swift */,
+				391F20561F3ACAB10044EEC0 /* Main.storyboard */,
+				391F20591F3ACAB10044EEC0 /* Assets.xcassets */,
+				391F205B1F3ACAB10044EEC0 /* LaunchScreen.storyboard */,
+				391F205E1F3ACAB10044EEC0 /* Info.plist */,
+				391F20621F3ACB140044EEC0 /* Button.swift */,
+			);
+			path = LimitSelectDemo;
+			sourceTree = "<group>";
+		};
 		3952176D1F3AA61A00F8AF09 = {
 			isa = PBXGroup;
 			children = (
 				395217791F3AA61A00F8AF09 /* LimitButtonSelect */,
+				391F20511F3ACAB10044EEC0 /* LimitSelectDemo */,
 				395217781F3AA61A00F8AF09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				395217771F3AA61A00F8AF09 /* LimitButtonSelect.framework */,
+				391F20501F3ACAB10044EEC0 /* LimitSelectDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +87,7 @@
 			children = (
 				3952177A1F3AA61A00F8AF09 /* LimitButtonSelect.h */,
 				3952177B1F3AA61A00F8AF09 /* Info.plist */,
+				395217821F3AA62600F8AF09 /* LimitButtonSelect.swift */,
 			);
 			path = LimitButtonSelect;
 			sourceTree = "<group>";
@@ -66,6 +106,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		391F204F1F3ACAB10044EEC0 /* LimitSelectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391F205F1F3ACAB10044EEC0 /* Build configuration list for PBXNativeTarget "LimitSelectDemo" */;
+			buildPhases = (
+				391F204C1F3ACAB10044EEC0 /* Sources */,
+				391F204D1F3ACAB10044EEC0 /* Frameworks */,
+				391F204E1F3ACAB10044EEC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LimitSelectDemo;
+			productName = LimitSelectDemo;
+			productReference = 391F20501F3ACAB10044EEC0 /* LimitSelectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		395217761F3AA61A00F8AF09 /* LimitButtonSelect */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3952177F1F3AA61A00F8AF09 /* Build configuration list for PBXNativeTarget "LimitButtonSelect" */;
@@ -90,11 +147,17 @@
 		3952176E1F3AA61A00F8AF09 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = jeasung.lee;
 				TargetAttributes = {
+					391F204F1F3ACAB10044EEC0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 					395217761F3AA61A00F8AF09 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -105,6 +168,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 3952176D1F3AA61A00F8AF09;
 			productRefGroup = 395217781F3AA61A00F8AF09 /* Products */;
@@ -112,11 +176,22 @@
 			projectRoot = "";
 			targets = (
 				395217761F3AA61A00F8AF09 /* LimitButtonSelect */,
+				391F204F1F3ACAB10044EEC0 /* LimitSelectDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		391F204E1F3ACAB10044EEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391F205D1F3ACAB10044EEC0 /* LaunchScreen.storyboard in Resources */,
+				391F205A1F3ACAB10044EEC0 /* Assets.xcassets in Resources */,
+				391F20581F3ACAB10044EEC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		395217751F3AA61A00F8AF09 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -127,16 +202,70 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		391F204C1F3ACAB10044EEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391F20551F3ACAB10044EEC0 /* ViewController.swift in Sources */,
+				391F20631F3ACB140044EEC0 /* Button.swift in Sources */,
+				391F20531F3ACAB10044EEC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		395217721F3AA61A00F8AF09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395217831F3AA62600F8AF09 /* LimitButtonSelect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		391F20561F3ACAB10044EEC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				391F20571F3ACAB10044EEC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		391F205B1F3ACAB10044EEC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				391F205C1F3ACAB10044EEC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		391F20601F3ACAB10044EEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LimitSelectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaskay.jeasungLee.LimitSelectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		391F20611F3ACAB10044EEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LimitSelectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaskay.jeasungLee.LimitSelectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		3952177D1F3AA61A00F8AF09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -241,6 +370,7 @@
 		395217801F3AA61A00F8AF09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -252,6 +382,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaskay.jeasungLee.LimitButtonSelect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -259,6 +390,7 @@
 		395217811F3AA61A00F8AF09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -277,6 +409,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		391F205F1F3ACAB10044EEC0 /* Build configuration list for PBXNativeTarget "LimitSelectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391F20601F3ACAB10044EEC0 /* Debug */,
+				391F20611F3ACAB10044EEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		395217711F3AA61A00F8AF09 /* Build configuration list for PBXProject "LimitButtonSelect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -293,6 +434,7 @@
 				395217811F3AA61A00F8AF09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

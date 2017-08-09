@@ -9,9 +9,24 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>LimitSelectDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>391F20371F3AC9660044EEC0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>391F204F1F3ACAB10044EEC0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>395217761F3AA61A00F8AF09</key>
 		<dict>
 			<key>primary</key>
