@@ -23,7 +23,7 @@ pod 'Toggler'
 
 
 ## Author
-[kaskay 🇰🇷](https://github.com/kaskay)
+[🇰🇷 kaskay 🇰🇷](https://github.com/kaskay)
 
 ## License
 LimitButtonSelect is available under the MIT license. See the LICENSE file for more info.
