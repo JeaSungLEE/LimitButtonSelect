@@ -12,6 +12,25 @@
 
 `LimitButtonSelect` is written in Swift 3. Compatible with iOS 9.0+
 
+## Usage
+
+The basic usage is to put the number of selectable buttons and buttons into an array.
+
+```ruby
+limitButtonSelect = LimitButtonSelect(limit: 1, buttons: [button1, button2, button3])
+```
+
+If you want to preselect it, you can use it as shown below.
+
+```ruby
+limitButtonSelect2 = LimitButtonSelect(limit: 3, buttons: [button4, button5, button6, button7, button8, button9], defaultIndex: [2,4])
+```
+
+When touching the button, use the on () method.
+```ruby
+limitButtonSelect2.on(button: sender)
+```
+
 ## Installation
 
 ### Cocoapods
