@@ -32,6 +32,9 @@ limitButtonSelect2.on(button: sender)
 ```
 
 When you want to return selected buttons, you can use the selectedButton () method.
+```ruby
+limitButtonSelect.selectedButton()
+```
 ## Installation
 
 ### Cocoapods
