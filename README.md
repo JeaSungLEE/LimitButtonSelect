@@ -31,6 +31,7 @@ When touching the button, use the on () method.
 limitButtonSelect2.on(button: sender)
 ```
 
+When you want to return selected buttons, you can use the selectedButton () method.
 ## Installation
 
 ### Cocoapods
